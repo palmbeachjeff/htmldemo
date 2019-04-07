@@ -69,23 +69,20 @@
     </ol>
   </section>
   
-  <section>
+  <section id="reviews">
+    <h2>Reviews</h2>
     <form>
-      <label for="user">Name</label>
-        <input type="text" name="user" id="user">
-      <label for="Rating">Rating</label>
-      <label for="one">1</label>
-        <input type="radio" name="one" checked>
-      <label for="one">2</label>
-        <input type="radio" name="two">
-      <label for="one">3</label>
-        <input type="radio" name="three">
-      <label for="one">4</label>
-        <input type="radio" name="four">
-      <label for="one">5</label>
-        <input type="radio" name="five">
+      <label for="name">Name</label>
+        <input type="text" name="name" id="name">
+      <label for="rating">Rating</label>
+      
+        1<input type="radio" name="rating" value="1" checked>
+        2<input type="radio" name="rating" value="2">
+        3<input type="radio" name="rating" value="3">
+        4<input type="radio" name="rating" value="4">
+        5<input type="radio" name="rating" value="5">
       <label for="expertise">Cooking Expertise:</label>
-        <select>
+        <select id="expertise" name="expertise">
           <option value="">Select Cooking Expertise</option>
           <option value="sometimes">Sometimes Cook</option>
           <option value="everyday">Cook Everyday</option>
